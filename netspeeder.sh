@@ -39,7 +39,7 @@ fi
 rpm -Uvh epel-release*rpm
 yum install -y libnet libnet-devel libpcap libpcap-devel gcc
 
-wget http://net-speeder.googlecode.com/files/net_speeder-v0.1.tar.gz -O -|tar xz
+wget --no-check-certificate https://raw.githubusercontent.com/x91270/Net_Speeder/master/net_speeder.tar.gz -O -|tar xz
 cd net_speeder
 if [ -f /proc/user_beancounters ] || [ -d /proc/bc ]; then
     sh build.sh -DCOOKED
