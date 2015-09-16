@@ -1,5 +1,6 @@
 1.安装
 wget --no-check-certificate https://raw.githubusercontent.com/x91270/Net_Speeder/master/netspeeder.sh
+
 sh netspeeder.sh
 
 2.启动
