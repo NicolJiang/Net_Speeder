@@ -1,7 +1,12 @@
-
+1.安装
 wget --no-check-certificate https://raw.githubusercontent.com/x91270/Net_Speeder/master/netspeeder.sh
 sh netspeeder.sh
 
+2.启动
+service netspeederd start
+
+3.停止
+service netspeederd stop
 
 net-speeder 在高延迟不稳定链路上优化单线程下载速度
 
